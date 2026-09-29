@@ -1,0 +1,26 @@
+{
+  "name": "linkvertise-automation",
+  "version": "1.0.0",
+  "description": "GitHub Actions web automation for Linkvertise tasks",
+  "main": "automation.js",
+  "scripts": {
+    "start": "node automation.js",
+    "dev": "DEBUG=* node automation.js",
+    "test": "node automation.js"
+  },
+  "keywords": [
+    "automation",
+    "github-actions",
+    "puppeteer",
+    "linkvertise"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.6.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
